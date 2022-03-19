@@ -27,17 +27,8 @@ C: https://github.com/openssh/openssh-portable/blob/master/md5crypt.c
 Reference that explains the ins and outs of password hashing: https://crackstation.net/hashing-security.htm  
 Online tool that generates the password hash (for verification purposes): https://unix4lyfe.org/crypt/  
 
-To allow passwords cracked within reasonable amount of time. The passwords for team users are generated with less than or equal to 6 characters (all lowercase letters   only). For the bonus user password, it is 8 characters exact (lowercase letters only).  
-
-Rules:  
-- If you use any shared machines to perform the password cracking, you are NOT allowed to interfere with other people's use of machines. You can be penalized in grades   if the rule is violated (e.g., from complaints). On some CS servers, there are background processes that auto-kill applications that are overly aggressive in using   the resources. The exact rule is defined by our IT admin. Please be aware.   
-
-
-Submission requirement:   
-- (4 points) Show the correct password for your team user.  
-- (4 points) Submit the following in a packaged file (zip or rar). 1) The source code. 2) The number of threads/processes is used. 3) The CPU model that your code is   run on. 4) The throughput of password cracking, i.e., the number of candidate passwords tested per second.  
-- (2 bonus points) Show the correct password for the bonus user (do not giveaway/copy results across teams), as well as the throughput (if different from above).  
-  
+ 
+  #project Results:
 
 ![alt text](https://github.com/brycehills/md5-hash-password-decrypter/blob/main/passwordcracked.png?raw=true)
 
