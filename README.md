@@ -32,6 +32,11 @@ Submission requirement:
 - (4 points) Submit the following in a packaged file (zip or rar). 1) The source code. 2) The number of threads/processes is used. 3) The CPU model that your code is   run on. 4) The throughput of password cracking, i.e., the number of candidate passwords tested per second.  
 - (2 bonus points) Show the correct password for the bonus user (do not giveaway/copy results across teams), as well as the throughput (if different from above).  
 
+#Run Instructions:
+git clone the repo: https://github.com/brycehills/md5-hash-password-decrypter.git  
+  
+navigate to the repo: python cracker.py  
+
 ![alt text](https://github.com/brycehills/md5-hash-password-decrypter/blob/main/passwordcracked.png?raw=true)
 
 
