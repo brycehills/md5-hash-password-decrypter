@@ -28,7 +28,7 @@ Reference that explains the ins and outs of password hashing: https://crackstati
 Online tool that generates the password hash (for verification purposes): https://unix4lyfe.org/crypt/  
 
  
-  #project Results:
+  # Project Results:
 
 ![alt text](https://github.com/brycehills/md5-hash-password-decrypter/blob/main/passwordcracked.png?raw=true)
 
