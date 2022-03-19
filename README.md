@@ -3,6 +3,12 @@ Operating system: Linux
 Software required: Crypto libraries. You are allowed to use only the primitive hash functions that take a single input. For instance, hashlib.md5(string) in python.   Password cracking utilities are explicitly prohibited (but can be used for verification).  
 Language: C/C++ or any other that you prefer. Note that speed may be a consideration.  
 
+### Compiling project:
+```
+1. git clone https://github.com/brycehills/md5-hash-password-decrypter.git 
+2. python cracker.py
+```
+
 
 In this project, you are asked to crack passwords from a "stolen" /etc/shadow file on a Linux system (See the file etc_shadow). You will work as teams of two. Each   teacm will crack the password for team[i] where i is the team number that is assigned by the TA. Each line in the file has the hash type, salt, and the hash of the   password.  
 For instance, consider an example first line "team0:$1$hfT7jp2q$/sDfNdP2e3OCxg2zGq1FK0:16653:0:99999:7:::",   
@@ -31,11 +37,7 @@ Submission requirement:
 - (4 points) Show the correct password for your team user.  
 - (4 points) Submit the following in a packaged file (zip or rar). 1) The source code. 2) The number of threads/processes is used. 3) The CPU model that your code is   run on. 4) The throughput of password cracking, i.e., the number of candidate passwords tested per second.  
 - (2 bonus points) Show the correct password for the bonus user (do not giveaway/copy results across teams), as well as the throughput (if different from above).  
-
-#Run Instructions:
-git clone the repo: https://github.com/brycehills/md5-hash-password-decrypter.git  
   
-navigate to the repo: python cracker.py  
 
 ![alt text](https://github.com/brycehills/md5-hash-password-decrypter/blob/main/passwordcracked.png?raw=true)
 
